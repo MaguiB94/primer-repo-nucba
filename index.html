@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PetShop DMP</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos al petshop DMP</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Contactenos</a>
+                </li>
+                <li> <a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <strong>La mejores marcas de alimento estan aca</strong>
+            </div>
+            <img src="dulce.jpg" alt="dulce1">
+            
+            <a href="#">Consulta a nuestro whatsapp</a>
+        </section>
+        <section>
+            <p>Bienvenidos al mejor lugar para comprar alimentos y juguetes a sus pichinines</p>
+        </section>
+        <section>
+            <p>Este lugar es atendido por sus dueños</p>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>Royal canin</th>
+                    <th>Excellent</th>
+                    <th>Proplan</th>
+                </tr>
+                <tr>
+                    <td>15kg </td>
+                    <td>15kg + 3kg </td>
+                    <td>20kg</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Formulario para envios</h2>
+            <form>
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre">
+                </div>
+                <div>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div>
+                    <label for="Correo">Correo electronico</label>
+                    <input type="email" id="Correo" required>
+                </div>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password" placeholder="Ingresa tu contraseña">
+                </div>
+                <div>
+                    <label for="dni">DNI</label>
+                    <input type="number" id="DNI">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar Formulario">
+                </div>
+                <div>
+               <!--Enviar el formulario con button-->
+              <!-- <button type="submit">ENVIAR</button> -->
+                </div>
+                <div>
+                    <input type="checkbox" id="terminos">
+                    <label for="terminos">¿Acepta terminos y condiciones?</label>
+                </div>
+                <div>
+                    <h3>Que tamaño es tu mascota?</h3>
+                    <input type="radio" name="tamaño" id="Grande">
+                    <label for="Grande">Grande</label>
+                    <input type="radio" name="tamaño" id="Mediano">
+                    <label for="mediano">Mediano</label>
+                    <input type="radio" name="tamaño" id="Chico">
+                    <label for="chico">Chico</label>
+                </div>
+
+                <div>
+                    <select name="edad" id="edad">
+                        <option>Seleccione el rango de edad</option>
+                        <option value="cachorro">Cachorro</option>
+                        <option value="adulto">Adulto</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+                <div>
+                    <p>Dejar algun comentario o detalle para el envio</p>
+                    <textarea name="description" id="description" required cols="30" rows="10" placeholder="Escriba una descripcion"></textarea>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
